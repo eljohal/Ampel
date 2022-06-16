@@ -1,2 +1,2 @@
 # Ampel
-to do
+Nichts fertig, aktueller Stand in README.md im branch staging
