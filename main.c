@@ -10,11 +10,10 @@
 
  */
 
-#include <windows.h>
 #include <stdio.h>
 
-int trafficLightLogic(boolean setTrafficLight, int IDTrafficLight);
-int trafficLight(int IDTrafficLight, );
+int trafficLightLogic(bool setTrafficLight, int IDTrafficLight);
+int trafficLight(int IDTrafficLight);
 
 
 

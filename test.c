@@ -1,19 +1,11 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <sys/time.h>
-#include <interrupt.h>
+#include<stdio.h>
+#include<time.h>
 
+/* Testfile */
 
-
-void main(){
-    bool teste;
-    char *test;
-
-    test = &teste;
-
-    printf("%d", teste);
-    printf("%d", test);
-    printf("%d", &test);
-    printf("%d", teste);
-
+int main() {
+	time_t nowe;
+	nowe = time(0);
+	printf("%s\n", ctime(&nowe)); //TEST TIME FUNCTION
+	return 0;
 }
